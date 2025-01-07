@@ -107,7 +107,7 @@ def schedule_lambda():
     """
     Schedule the retrieve_data function to run periodically (e.g., every 1 minute for testing).
     """
-    schedule.every(24).hour.do(lambda: retrieve_data())
+    schedule.every(24).hours.do(lambda: retrieve_data())
     logging.info("Scheduler is running. Press Ctrl+C to stop.")
     print("Scheduler is running. Press Ctrl+C to stop.")
     

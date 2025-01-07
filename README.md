@@ -32,8 +32,6 @@ Key functionalities include:
    ```bash
    pip install requests beautifulsoup4 pandas openpyxl schedule
    ```
-3. **Node.js and SST** *(optional)*: For testing infrastructure locally using SST (not implemented due to dependency issues).
-
 ---
 
 ## Setup Instructions
